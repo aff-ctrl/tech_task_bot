@@ -2,6 +2,7 @@ services:
   - type: worker
     name: tech_task_bot_worker
     env: python
-    plan: free
-    buildCommand: "pip install -r requirements.txt"
+    plan: starter  # якщо безкоштовний не дозволяє — треба starter
+    buildCommand: ""
     startCommand: "python main.py"
+
