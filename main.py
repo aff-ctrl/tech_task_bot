@@ -27,7 +27,7 @@ from telegram.ext import (
 )
 
 # ----------------- Конфиг (берём из env, если есть) -----------------
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8265362344:AAHib1QEWKBzTIjt_9b_lC7W3p-BHs3fvyQ")  # муляж по умолчанию
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8265362344:AAGrWtKnFOT7ZTZpq6rK6MIfDvDBydKfxzo")  # муляж по умолчанию
 try:
     TECH_CHAT_ID = int(os.getenv("TECH_CHAT_ID", "-4844266445"))
 except Exception:
